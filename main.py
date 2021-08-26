@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_mail import Mail, Message
 
-MESSAGE = 'your message'
+SUBJECT = 'your message'
 SENDER = 'sender@example.com'
 RECIPIENT = 'recipient@example.com'
 BODY = 'message body'
@@ -20,7 +20,7 @@ mail = Mail(app)
 
 @app.route(URL)
 def index():
-    msg = Message(MESSAGE,
+    msg = Message(SUBJECT,
                   sender=SENDER,
                   recipients=[RECIPIENT])
     msg.body = BODY
