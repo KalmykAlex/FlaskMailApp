@@ -1,6 +1,6 @@
 [![Generic badge](https://img.shields.io/badge/python_version-3.9-blue.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/flask_version-2.0.1-blue.svg)](https://shields.io/)
-## FLask Mail App
+## Flask Mail App
 
 ### FIELDS TO BE EDITED:
     - SUBJECT:                      email subject
