@@ -1,6 +1,6 @@
-##FLask Mail App
+## FLask Mail App
 
-### Cimpuri de editat:
+### FIELDS TO BE EDITED:
     - SUBJECT:                      email subject
     - SENDER:                       email of the sender
     - RECIPIENT:                    email of the recipient
